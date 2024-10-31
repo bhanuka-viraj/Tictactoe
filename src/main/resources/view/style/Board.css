@@ -1,0 +1,36 @@
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #2E3440, #1C1E26);
+}
+
+.gridPane {
+    -fx-hgap: 7;
+    -fx-vgap: 7;
+}
+.starterbtn{
+    -fx-background-radius: 50px;
+    -fx-background-color: #E0A458;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+}
+.starterbtn:hover{
+    -fx-background-color: #71e058;
+}
+.btnGrid {
+    -fx-background-color: #E0A458;
+    -fx-background-radius: 5;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-font-size: 50px;
+    /*-fx-text-fill: #D65A31;*/
+}
+.btnGrid:hover {
+    -fx-background-color: #F97300;
+}
+
+.grid-cell {
+    -fx-border-color: red;
+    -fx-border-width: 1px;
+}
+
