@@ -1,6 +1,7 @@
 package com.assignment.tictactoe.service;
 
 public class AiPlayer extends Player {
+    private int maxDepth = 3;
     public AiPlayer(Board board) {
         super(board);
     }
@@ -45,7 +46,7 @@ public class AiPlayer extends Player {
             }
         }
 
-        if (isBoardFull(board)) {
+        if (depth==maxDepth || isBoardFull(board)) {
             return 0; // Draw
         }
 
